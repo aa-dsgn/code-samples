@@ -1,0 +1,476 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Support the Jimmy Fund | Homepage</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+
+</head>
+
+<body>
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+
+Remove this if you use the .htaccess -->
+
+
+
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><link rel="shortcut icon" type="image/x-icon" href="http://www.kintera.org/atf/cf/%7B79b8bf64-52b7-4c3a-8db5-87e142aaa538%7D/FAVICON%20%282%29.ICO" /><link rel="icon" type="image/x-icon" href="http://www.kintera.org/atf/cf/%7B79b8bf64-52b7-4c3a-8db5-87e142aaa538%7D/FAVICON%20%282%29.ICO" />
+
+<meta name="Keywords" content="dana-farber, cancer, the jimmy fund, give, participate, volunteer, cancer patients" />
+
+<meta name="description" content="We have cancer. Cancer doesn't have us. Thanks to Dana-Farber Cancer Institute and the Jimmy Fund, the Martin Family is receiving the support and world-claa care they need." />
+
+<!--Begin Cross Domain Google Analytics Tracking-->
+
+<script type="text/javascript" src="http://www.kintera.org/atf/cf/{32ba27b0-592b-48aa-9aec-140ddea3d162}/dfcianalytics.js"></script><!--End Cross Domain Google Analytics Tracking-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script><script>
+
+var fadeDuration=2000;
+
+var displayTime=4000;
+
+var currentIndex=1;
+
+var nextIndex=1;
+
+        $(document).ready(function()
+
+        {  
+
+           $('ul.slideshow li').css({opacity: 0.0});
+
+           $("'ul.slideshow li:nth-child("+nextIndex+")'").addClass('show').animate({opacity: 1.0}, fadeDuration);
+
+   /* setInterval("nextSlide()",displayTime);*/
+
+           var timer = setInterval("nextSlide()",displayTime);
+
+        })
+
+function nextSlide(){
+
+          nextIndex =currentIndex+1;
+
+          if(nextIndex> $('ul.slideshow li').length)
+
+          {
+
+             nextIndex =1;
+
+          }
+
+          $("'ul.slideshow li:nth-child("+nextIndex+")'").addClass('show').animate({opacity: 1.0}, fadeDuration);
+
+          $("'ul.slideshow li:nth-child("+currentIndex+")'").animate({opacity: 0.0}, fadeDuration).removeClass('show');
+
+          currentIndex = nextIndex;
+
+}
+
+</script>
+
+<style type="text/css">
+
+body {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+html, body {
+
+margin:0;
+
+padding:0;
+
+}
+
+#footer
+
+{width:940px;
+
+background-color:#ffffff;
+
+margin:0;
+
+display:block;
+
+margin:auto;
+
+border-left-color:#0063a8;
+
+border-left-width: thin;
+
+border-left-style:solid;
+
+border-right-color:#0063a8;
+
+border-right-width:thin;
+
+border-right-style:solid;
+
+border-bottom-color:#0063a8;
+
+border-bottom-width:thin;
+
+border-bottom-style:solid;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#center
+
+{width:940px;
+
+height: 559px;
+
+margin:0;
+
+display:block;
+
+}
+
+#nav
+
+{
+
+width:940px;
+
+height: 40px;
+
+background-color: #c0dfff;
+
+color:#000;
+
+font:Arial, Helvetica, sans-serif;
+
+text-align: center;
+
+}
+
+#nav li {
+
+display: inline;
+
+}
+
+#nav ul
+
+{font-weight: ;
+
+color:#000;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+font-weight:bold;
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 11px 12px;
+
+border-bottom-color:#ffffff;
+
+border-bottom-width:medium;
+
+border-bottom-style:solid;
+
+}
+
+#nav a
+
+{padding-left: 20px;
+
+padding-right: 20px;
+
+padding-top:12px;
+
+padding-bottom:11px;
+
+text-decoration: none;
+
+}
+
+#nav li a:link, a:visited {
+
+color: #000000;
+
+text-decoration: none;
+
+}
+
+#nav li a:hover{
+
+color: #0063a8;
+
+background-color: #ffffff;
+
+border-bottom-color:#c0dfff;
+
+border-bottom-width:medium;
+
+border-bottom-style:solid;
+
+}
+
+#nav li a:active {
+
+color:#0063a8;
+
+text-decoration: none;
+
+}
+
+#main
+
+{width:940px;
+
+height: 700px;
+
+margin:auto;
+
+border-left-color:#0063a8;
+
+border-left-width: thin;
+
+border-left-style:solid;
+
+border-right-color:#0063a8;
+
+border-right-width:thin;
+
+border-right-style:solid;
+
+overflow: hidden;
+
+display:block;
+
+}
+
+.slideshow{
+
+padding:0;
+
+margin:0;
+
+list-style: none;
+
+position:relative;
+
+}
+
+ul.slideshow li {
+
+position:absolute;
+
+left:0px;
+
+top:0px;
+
+display:inline;
+
+}
+
+ul.slideshow li.show {
+
+z-index:500;
+
+}
+
+a:active, a:visited, a:selected,a:hover
+
+{
+
+border: none;
+
+outline: none;
+
+}
+
+a:active, a:focus, input[type="image"] {
+
+outline: 0;
+
+}
+
+.Bottomcopy {
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 13px;
+
+}
+
+.Copy { font-family: Arial, Helvetica, sans-serif;
+
+font-size: 12px;
+
+color:#000000;
+
+}
+
+.Copy1 {font-family: Arial, Helvetica, sans-serif;
+
+font-size: 12px;
+
+line-height:14px;
+
+color:#000000;
+
+}
+
+.Family { font-family: Arial, Helvetica, sans-serif;
+
+font-size: 14px;
+
+font-weight: bold;
+
+color: #3399ff;
+
+}</style>
+
+<script type="text/javascript">
+
+window.onload=function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+function MM_swapImgRestore() { //v3.0
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+}
+
+function MM_findObj(n, d) { //v4.01
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+
+}
+
+function MM_swapImage() { //v3.0
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+}
+
+</script>
+
+<div id="main" align="center">
+
+<table cellspacing="0" cellpadding="0" width="940">
+
+<tr>
+
+<td>
+
+<table border="0" cellspacing="0" cellpadding="0" width="940">
+
+<tr>
+
+<td><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640589&amp;track=BAWS050913&amp;msource=BAWS050913"><img border="0" alt="Support the Jimmy Fund" align="absBottom" src="http://www.kintera.org/atf/cf/{6463B5AE-03ED-40F7-B7B2-B8B2B0900756}/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_BB.JPG" width="940" height="54" /></a> </td></tr>
+
+<tr>
+
+<td>
+
+<table border="0" cellspacing="0" cellpadding="0" width="940" align="center">
+
+<tr>
+
+<td width="350"><img border="0" alt="" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LTBLANK.JPG" width="350" height="46" /></td>
+
+<td width="181"><a href="http://www.dana-farber.org?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img border="0" alt="Dana-Farber Cancer Institute" align="right" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_DFLOGO.JPG" width="181" height="46" /></a></td>
+
+<td width="165"><a href="http://www.jimmyfund.org?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img border="0" alt="The Jimmy Fund" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_JF.JPG" width="165" height="46" /></a></td>
+
+<td width="40"><a href="https://www.facebook.com/thejimmyfund" target="_blank"><img border="0" alt="Jimmy Fund Facebook" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_SBUTTONS_FB.JPG" width="40" height="46" /></a></td>
+
+<td width="30"><a href="https://twitter.com/TheJimmyFund" target="_blank"><img border="0" alt="Jimmy Fund Twitter" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_SBUTTONS_TW.JPG" width="30" height="46" /></a></td>
+
+<td width="31"><a href="http://www.youtube.com/user/JimmyFund48" target="_blank"><img border="0" alt="Jimmy Fund YouTube" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_SBUTTONS_YT.JPG" width="31" height="46" /></a></td>
+
+<td width="30"><a href="http://www.linkedin.com/groups/Jimmy-Fund-130875?mostPopular=&amp;gid=130875" target="_blank"><img border="0" alt="Jimmy Fund LinkedIn" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-R1-KHA-SM_SBUTTONS_LI.JPG" width="30" height="46" /></a></td>
+
+<td width="31"><a href="http://jf.g8wave.com/" target="_blank"><img border="0" alt="Jimmy Fund Mobile" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_TXT1.JPG" width="31" height="46" /></a></td>
+
+<td width="81"><img border="0" alt="" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_RTBLANK.JPG" width="12" height="46" /> </td></tr></table></td></tr>
+
+<tr>
+
+<td>
+
+<div id="nav">
+
+<ul><li><a href="https://www.kintera.org/site/c.kfINKTOzFqG/b.5517163/k.1110/The_Jimmy_Fund__Gift_Form__JimmyFundorg/apps/ka/sd/donorcustom.asp?track=BAWS050913&amp;msource=BAWS050913" target="_blank">GIVE</a></li><li><a href="http://www.jimmyfund.org/eve/default.html?track=BAWS050913&amp;msource=BAWS050913" target="_blank">PARTICIPATE</a></li><li><a href="http://www.jimmyfund.org/vol/default.html?track=BAWS050913&amp;msource=BAWS050913" target="_blank">VOLUNTEER</a></li><li><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640594&amp;track=BAWS050913&amp;msource=BAWS050913">MEET OUR PATIENTS</a></li><li><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640593&amp;track=BAWS050913&amp;msource=BAWS050913">THE IMPACT OF YOUR GIVING</a></li><li><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640590&amp;track=BAWS050913&amp;msource=BAWS050913">ABOUT THE JIMMY FUND</a> </li></ul></div></td></tr>
+
+<tr>
+
+<td>
+
+<table border="0" cellspacing="0" cellpadding="0" width="940" align="center">
+
+<tr>
+
+<td>
+
+<div id="center">
+
+<ul class="slideshow"><li><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640594&amp;track=BAWS050913&amp;msource=BAWS050913"><img id="logo_box" border="0" alt="We have cancer. Cancer doesn't have us. Thanks to Dana-Farber Cancer Institute and the Jimmy Fund, the Martin Family is receiving the support and world-claa care they need." align="top" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_MEGHAN.JPG" width="940" height="559" /></a> </li><li><a href="http://www.jimmyfund.kintera.org/htmlcontent.asp?cid=640594&amp;track=BAWS050913&amp;msource=BAWS050913"><img id="logo_box" border="0" alt="We have cancer. Cancer doesn't have us. Thanks to Dana-Farber Cancer Institute and the Jimmy Fund, the Martin Family is receiving the support and world-claa care they need." align="top" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_JAYDEN.JPG" width="940" height="559" /></a> </li></ul></div></td></tr></table></td></tr></table></td></tr></table></div>
+
+<div id="footer">
+
+<table border="0" cellspacing="0" cellpadding="0" width="940">
+
+<tr>
+
+<td width="326"><a onmouseover="MM_swapImage('Give Bottome','','http://www.kintera.org/atf/cf/{6463B5AE-03ED-40F7-B7B2-B8B2B0900756}/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEGIVEROLL.GIF',1)" onmouseout="MM_swapImgRestore()" href="https://www.kintera.org/site/c.kfINKTOzFqG/b.5517163/k.1110/The_Jimmy_Fund__Gift_Form__JimmyFundorg/apps/ka/sd/donorcustom.asp?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img id="Give Bottome" border="0" alt="Give" src="http://www.kintera.org/atf/cf/{6463B5AE-03ED-40F7-B7B2-B8B2B0900756}/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEGIVE.GIF" width="326" height="99" /></a></td>
+
+<td width="283"><a onmouseover="MM_swapImage('Participate Bottom','','http://www.kintera.org/atf/cf/{6463B5AE-03ED-40F7-B7B2-B8B2B0900756}/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEPARTICIPATEROLL.GIF',1)" onmouseout="MM_swapImgRestore()" href="http://www.jimmyfund.org/eve/default.html?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img id="Participate Bottom" border="0" alt="Participate" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEPARTICIPATE.GIF" width="283" height="99" /></a></td>
+
+<td width="331"><a onmouseover="MM_swapImage('Volunteer Bottom','','http://www.kintera.org/atf/cf/{6463B5AE-03ED-40F7-B7B2-B8B2B0900756}/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEVOLUNTEERROLL.GIF',1)" onmouseout="MM_swapImgRestore()" href="http://www.jimmyfund.org/vol/default.html?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img id="Volunteer Bottom" border="0" alt="Volunteer" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M_LARGEVOLUNTEER.GIF" width="331" height="99" /></a></td></tr></table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="940">
+
+<tr>
+
+<td><a href="https://www.kintera.org/site/c.kfINKTOzFqG/b.5517163/k.1110/The_Jimmy_Fund__Gift_Form__JimmyFundorg/apps/ka/sd/donorcustom.asp?track=BAWS050913&amp;msource=BAWS050913" target="_blank"><img border="0" alt="Give locally. Conquer cancer globally." src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/DVGEN13035_OTS_WEBSITE_HOME-SUB_M-NEW_TAGLINE5.GIF" width="940" height="81" /><br /><br /></a></td></tr></table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="839" align="center">
+
+<tr>
+
+<td style="font-size: 12px" width="760">
+
+<div class="Bottomcopy" align="left">The Jimmy Fund, 10 Brookline Place West, 6th Floor, Brookline, MA 02445-7295<br />P: (800) 52-JIMMY (54669) | E: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#74;&#105;&#109;&#109;&#121;&#70;&#117;&#110;&#100;&#67;&#111;&#110;&#116;&#97;&#99;&#116;&#85;&#115;&#64;&#100;&#102;&#99;&#105;&#46;&#104;&#97;&#114;&#118;&#97;&#114;&#100;&#46;&#101;&#100;&#117;" target="_blank">JimmyFundContactUs@dfci.harvard.edu</a> | <a href="http://www.jimmyfund.org/privacy-policy/default.html" target="_blank">Privacy Policy</a><br /><br />Copyright 2013 Dana-Farber Cancer Institute | The Jimmy Fund is a 501(c)(3) organization. </div></td>
+
+<td width="121"><img alt="CharityNavigator" src="http://www.kintera.org/atf/cf/%7B6463B5AE-03ED-40F7-B7B2-B8B2B0900756%7D/CHARITYNAV.JPG" width="120" height="60" /></td></tr></table><a href="https://www.kintera.org/site/c.kfINKTOzFqG/b.5517163/k.1110/The_Jimmy_Fund__Gift_Form__JimmyFundorg/apps/ka/sd/donorcustom.asp" target="_blank"><br /></a></td></td></tr></table></div><contentform />
+
+</body>
+
+</html>
+
+
+

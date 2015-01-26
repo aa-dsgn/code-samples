@@ -1,0 +1,289 @@
+
+	.carousel {
+	margin-top:50px;
+	position:relative;
+	}
+	.carousel-caption {
+	  z-index: 10;
+	}
+	
+.carousel-caption p{
+	color: rgba(255,255,255, 0.5); 
+    font-size:14px;
+    font-weight:100;
+    margin-bottom:0px;
+	}
+	
+	
+	div.new_controls
+	{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	font-size: 1.5em;
+	}
+	
+	div.new_controls a
+	{
+	color: rgba(255,255,255, 0.5);
+	padding: 0px 30px;
+	}
+	div.new_controls a:hover, a:focus {
+	text-decoration:none;
+		
+	}
+	
+.heading-secondary
+	{
+	  font-family:'Roboto Slab', serif;
+	  font-weight:100px;
+	  line-height: 20px;	
+	  color:#777;
+	  text-align:center;
+	  padding-bottom:0px;
+	}
+
+h2.caption_header{
+	 font-size:18px;
+	 font-family:'Roboto Slab', serif;
+	 color:#ffffff;
+	 font-weight:400;	
+	 }
+
+/*about*/
+	
+.about_container{
+	background-color:#4B6375;
+	padding: 20px 0;
+	color: rgba(255,255,255, 0.5);
+	font-weight:100;
+	line-height:1.8em;
+	}
+	
+.about_container a{
+	color: rgba(255,255,255, 0.8);	
+		
+	}
+
+.about_container a:hover, a:focus
+	{
+	color: rgba(255,255,255, 0.8);
+	text-decoration:underline;	
+	}
+	
+.about_contactinfo{
+	color: rgba(255,255,255, 0.8);		
+	}
+a.about_contactinfo{
+	color: rgba(255,255,255, 0.8);
+	}
+
+a.about_contactinfo:hover,
+a.about_contactinfo:focus{
+	color: rgba(255,255,255, 0.8);
+	text-decoration:none;
+	}
+	
+
+ /*portfolio*/
+.portfolio_container{
+	background-color:#B0C4CC;
+	padding: 20px 0;
+	font-weight:100;
+	line-height:1.8em;
+	}
+	
+
+p.info_message{
+	text-align:center;
+	}
+
+.tile{
+	padding:10px;
+	margin-bottom: 30px;
+	background-color: #f3f3f3; 	
+	border: 1px solid transparent;
+	border-radius: 4px;
+	 -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.tile a{
+	color: #333;	
+	}
+
+.tile a:hover, a:focus{
+	color:#333;
+	text-decoration:underline;
+	}
+
+	
+.bringtofront:hover{
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-o-transform:scale(2);
+	transform:scale(2);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	position:relative;
+	z-index:99999;
+	offset:20px;
+	font-size:2px;
+	
+		
+	}
+	
+	
+	
+
+.client{	
+	color:#DB4105
+	}
+
+h5.caption{
+	text-align:center;
+	font-weight:100;	
+	}
+
+p.info_message{
+	text-align:center;
+	}
+/*resume*/	
+	
+.resume_container{
+	background-color:#f3f3f3;
+	padding: 20px 0;
+	font-weight:100;
+	line-height:1.8em;
+	}
+	
+p.position{
+	color:#777777;
+	}	
+
+.resume_rows{
+padding:15px 0px;
+}
+
+.freelance{
+	padding:15px 0px;
+	border-top: 1px #777 dotted;
+	}
+
+/*back to top toggle*/	
+a.back_to_top{
+	color:#ffffff;
+	font-weight:100;
+	padding:5px 25px; 
+	background-color:#DB4105;
+	}
+	
+a.back_to_top:hover,
+a.back_to_top:focus{
+	color:#ffffff;
+	font-weight:100;
+	padding:5px 25px; 
+	background-color:#777777;
+	text-decoration:none;
+	}
+	
+.backtotop_box{
+	background-color:#f3f3f3;
+	height:23px; 
+	}
+	
+
+
+/* footer*/
+footer{
+	font-weight:100;color:#777777; 
+	padding:20px 0px;
+	text-align:center;
+	}
+
+a.social{
+	color:#ffffff;
+	padding:0px 10px 10px 10px; 
+}
+a.social:hover,
+a.social:focus{
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .carousel {
+    margin-top:70px;
+    position: relative;
+	}
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: rgba(255,255,255, 0.5); 
+    font-size:18px;
+    font-weight:100;
+    
+    
+  }
+	
+	.about_container{
+	padding: 60px 0;
+	}
+	
+	.portfolio_container{
+	padding: 60px 0;
+	}
+	
+	.resume_container{
+	padding: 60px 0;
+
+	}
+	
+footer{
+	font-weight:100;
+	color:#777777; 
+	padding:60px 0px;
+	}
+	
+a.social{
+	color:#ffffff;
+	padding:0px 10px 40px 10px; 
+}
+a.social:hover,
+a.social:focus{
+	color:#ffffff;
+	padding:0px 10px 40px 10px; 
+	text-decoration:underline;
+}
+
+
+
+  
+  h2.caption_header {
+  font-family:'Roboto Slab', serif;
+  color:#ffffff;
+  font-weight:400;
+  font-size:30px;
+  }
+  
+  .heading-secondary
+	{
+	  font-family:'Roboto Slab', serif;
+	  font-weight:100px;
+	  line-height: 20px;	
+	  color:#777;
+	  text-align:center;
+	  padding-bottom:20px;
+	}
+  
+ 
+
+
+}
+

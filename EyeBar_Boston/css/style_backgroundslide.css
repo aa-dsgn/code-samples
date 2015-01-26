@@ -1,0 +1,12 @@
+
+.headerimg { 
+ background-position: center top;
+ background-repeat: no-repeat; 
+ /*width:100%; 
+ height:600px;*/
+ height: 522px;
+ width: 980px;
+ position:absolute; 
+
+ }
+

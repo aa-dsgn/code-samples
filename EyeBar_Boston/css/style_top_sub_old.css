@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top_info_all{  
+	height: 350px;
+	width: 690px;
+	margin-left: 290px;
+	color: #325884;
+
+}
+#top_info_optical {
+	display: none;
+}
+#top_info_contacts {
+	display: none;
+}
+#top_info_lasik {
+	display: none;
+}
+#top_info_directions {
+	background-image:url(../images/map1.jpg);
+	background-repeat: no-repeat;
+	background-position: 70px 100px;
+	display: none;
+}
+#top_info_relatedlinks {
+	display: none;
+}
+#top_info_contactus {
+	display: none;
+
+}
+
+#top_info_contactus #contact_container {
+	height: 300px;
+	width: 580px;
+	border: thin solid #999;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+label
+{
+width: 6em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block;
+}
+
+.submit input
+{
+	margin-left: 7em;
+} 
+input
+{
+	color: #000;
+	background-color: #FFF;
+	
+}
+.submit input
+{
+color: #000;
+background: #fff;
+border: 2px outset #666;
+} 

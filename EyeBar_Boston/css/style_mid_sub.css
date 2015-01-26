@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.middle_info_all{  
+	height: 350px;
+	width: 690px;
+	margin-left: 290px;
+	color: #325884;
+}
+#side_nav ul #sub_menu1{
+	display:none;
+	margin: 0px;
+	}
+#sub_menu1 li{padding-top:2px;
+	padding-bottom:2px;}
+	
+#sub_menu1 a{
+	padding-top:0px;
+	padding-bottom:0px;}
+
+#sub_menu2{
+	display:none;}
+#sub_menu3{
+	display:none;}
+
+ #sub_menu2 li a {display:block;}
+ #sub_menu3 li a {display:block;}
+ #sub_menu1 li a {display:block;}
+ 
+#sub_menu2 li{
+	padding-top:2px;
+	padding-bottom:2px;}
+#sub_menu3 li{
+	padding-top:2px;
+	padding-bottom:2px;}
+ 
+ 

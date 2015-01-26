@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.middle_info_all{  
+	height: 350px;
+	width: 690px;
+	margin-left: 290px;
+	color: #325884;
+
+	}
+
+#side_nav ul #sub_menu1 {
+	display:none;
+	/*visibility: hidden;*/
+	font-size:10px;
+	padding-top:0px;
+}
+#side_nav ul #sub_menu1 li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display:block;
+	
+}
+#side_nav ul #sub_menu1
+{
+	list-style-type:none;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	/*padding-left: 45px;
+	text-align:left;*/ /* to allign with Doctors*/
+}
+#sub_menu1 li a: a:link,a:visited
+{
+	color:#FFFFFF;
+	
+	text-decoration:none;
+	outline:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;	
+
+}
+#sub_menu1 li a: a:hover,a:active
+{
+	font-weight: normal;
+	color: #325884;	
+	outline:none;
+}
+
+ #side_nav ul #sub_menu2 {
+	display:none;
+	/*visibility: hidden;*/
+	font-size:10px;
+	padding-top:0px;
+	
+	/*margin:0;*/
+}
+
+#side_nav ul #sub_menu2 li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display:block;
+	/*height:15px;	
+	width:200px;*/
+}
+
+
+ #side_nav ul #sub_menu3 {
+	display:none;
+	font-size:10px;
+	padding-top:0px;
+}
+#side_nav ul #sub_menu3 li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display:block;
+	/*height:15px;	
+	width:200px;*/
+	
+}
+ #sub_menu2 li a{display:block;}
+ #sub_menu3 li a {display:block;}
+ #sub_menu1 li a {display:block;}
